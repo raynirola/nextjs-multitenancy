@@ -59,7 +59,7 @@ yarn create next-app --example https://github.com/vercel/examples/tree/main/edge
 You'll need to set the root , a wildcard domain in your Vercel project, as an environment variable. Copy the `.env.example` file in this directory to `.env.local` (which will be ignored by Git):
 
 ```bash
-cp .env.example .env.local
+cp .env.local .env.local
 ```
 
 Next, run Next.js in development mode:
